@@ -97,7 +97,9 @@ Interaction between the software apps and HardWare happens by the help of System
 <details>
 <summary>SIMPLIFIED RTL TO GDS FLOW</summary>
 
-![Screenshot (28)](https://github.com/user-attachments/assets/69930102-65c7-4d44-8bb9-c9eca7271cc8)
+![Screenshot (28)](https://github.com/user-attachments/assets/455d0c0f-c1d1-4d68-b934-6648a216dbcd)
+
+
 
 1. ### SYNTHESIS
     - converts RTL to a circuit out of components from the standard cell library.
@@ -147,7 +149,7 @@ Interaction between the software apps and HardWare happens by the help of System
     - its main goal is to produce a clean GDS Iwith no human intervention (no-human-in-the-loop).clean means no DRC , LVS violations,no timing violations.
     - Tuned for SKYWATER 130nm open pdk.
 
-----
+
 
 
  ## DETAILED ASIC DESIGN FLOW
@@ -175,5 +177,5 @@ after the testing follows the fabrication.
 -  post placement optimisation and CTS modifies the netlist
        
 
-  
+</details>
    
