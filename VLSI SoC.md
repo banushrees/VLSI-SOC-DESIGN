@@ -9,21 +9,21 @@
 
 
 
-- Each side of this has 12 pins
-- chip is connected to each pins
+- Each side of this has 12 pins.
+- chip is connected to each pins.
 
   ![Screenshot (15)](https://github.com/user-attachments/assets/eb160ae7-5324-4d1a-8662-423b7dc3e66f)
 
  important components of this chips are  PADS, core, dies.
-  - CORE is area where all the digital logic chips are embedded
-  - PADS is used to send the signals inside the chip and vise versa
-  - DIE is used entire size of the chip where all pins  are embedded
+  - <mark>CORE</mark> is area where all the digital logic chips are embedded.
+  - <mark>PADS</mark> is used to send the signals inside the chip and vise versa.
+  - <mark>DIE</mark> is used entire size of the chip where all pins  are embedded.
 
 ![Screenshot (18)](https://github.com/user-attachments/assets/bc17abfb-f80c-47c7-92dc-8ff4c6c86f3d)
 
 - A typical chip contains of SoC(RISC-V) , SRAM, ADC, DAC, PLL, GPIO, SPI.
 - SRAM, PLL, ADC, DAC  are called ` FOUNDRY IP'S `(factory where all the chips are manufactured).
-- FOUNDRY IP's has some files which will help us to communicate the parts present  in the chip (Foundry IP parts)
+- FOUNDRY IP's has some files which will help us to communicate the parts present  in the chip (Foundry IP parts).
 - MACROS's are digital logic components contains of  RISCV (Soc), SPI, GPIO  Bank.
 - IP's (Intellilectual Property )is an intelligent technique to built the building blocks.
 
@@ -35,31 +35,31 @@
 ![Screenshot (19)](https://github.com/user-attachments/assets/b1930879-780a-4052-a572-5fe76917728b)
 
 - RISC V is Instruction set architecture (eg.C-program has to be typed on the hardware which has a particular layout )
-- The C-program is compiled on the assembly launguage program
-- The assembly launguage program later on converted to machine launguage (eg 0101110)  Hexadecimal--> binary
-- The interface that present between the RISCV  and layout is HDL( Hardware Description Launguage)
+- The C-program is compiled on the assembly launguage program.
+- The assembly launguage program later on converted to machine launguage (eg 0101110)  Hexadecimal--> binary.
+- The interface that present between the RISCV  and layout is HDL( Hardware Description Launguage).
 
 </details>
 
 <details>
 <summary>SOFTWARE APPLICATION TO HARDWARE IMPLEMENTATION</summary>
 
-Interaction between the software apps and HardWare happens by the help of System software 
+Interaction between the software apps and HardWare happens by the help of System software .
 
 ![Screenshot (19)](https://github.com/user-attachments/assets/abacd6ff-7437-495c-9bfd-2aad14de8ea6)
 
 ### components of system software
 
  #### OS -> COMPILER -> ASSEMBLER
- 1. OS - Operating System
+ 1. <mark>OS</mark> - Operating System
    -Handles i/o operations
    - Allocate Memory
    - Low level system functions
 
- 2. COMPILER
+ 2. <mark>COMPILER</mark>
     -converts c,c++ VB, Java, to instructions depends on what kind of hardware it is (eg..exe file).
 
- 3.ASSEMBLER
+ 3. <mark>.ASSEMBLER</mark>
    - converts instrction set  into machine launguage (eg 101011)
 
  ![Screenshot (22)](https://github.com/user-attachments/assets/4230546d-cf87-4026-a798-da9f708b70ae)
@@ -98,6 +98,14 @@ Interaction between the software apps and HardWare happens by the help of System
 
 ![Screenshot (28)](https://github.com/user-attachments/assets/69930102-65c7-4d44-8bb9-c9eca7271cc8)
 
+1. ### SYNTHESIS
+    - converts RTL to a circuit out of components from the standard cell library.
+    - standard cell have a regular layout , each has different views/models.
+          ->Electrical : HDL, SPICE.
+          -> Layout.
+2. ### Floor planning & Power planning
+    - <mark>chip floor planning</mark> : partition the chip in between different system building blocks & place the i/o pads
+    - **macro floor planning** : it focuses on dimensions
 
 
 
