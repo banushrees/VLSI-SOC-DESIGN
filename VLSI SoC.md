@@ -103,10 +103,15 @@ Interaction between the software apps and HardWare happens by the help of System
     - standard cell have a regular layout , each has different views/models.
           ->Electrical : HDL, SPICE.
           -> Layout.
-2. ### Floor planning & Power planning
-    - <mark>chip floor planning</mark> : partition the chip in between different system building blocks & place the i/o pads
-    - <mark>macro floor planning</mark> : it focuses on dimensions pin locations , row definitions
-
+2. ### FLOOR PLANNING DN POWER PLANNING
+    - <mark>chip floor planning</mark> : partition the chip in between different system building blocks & place the i/o pads.
+    - <mark>macro floor planning</mark> : it focuses on dimensions pin locations , row definitions.
+    - <mark> power planning</mark> power unit is constructed typically . it ensures power is gone to all the parts. eg.power pads (vdd, vss),power straps ,power
+      rings.
+      
+3. ### PLACEMENT
+     - place the cells on the floor plan rows, aligned with the sites.
+     - usually done 
 
 
 
