@@ -15,9 +15,9 @@
   ![Screenshot (15)](https://github.com/user-attachments/assets/eb160ae7-5324-4d1a-8662-423b7dc3e66f)
 
  important components of this chips are  PADS, core, dies.
-  - <mark>CORE</mark> is area where all the digital logic chips are embedded.
-  - <mark>PADS</mark> is used to send the signals inside the chip and vise versa.
-  - <mark>DIE</mark> is used entire size of the chip where all pins  are embedded.
+  - <ins>CORE</ins> is area where all the digital logic chips are embedded.
+  - <ins>PADS</ins> is used to send the signals inside the chip and vise versa.
+  - <ins>DIE</ins> is used entire size of the chip where all pins  are embedded.
 
 ![Screenshot (18)](https://github.com/user-attachments/assets/bc17abfb-f80c-47c7-92dc-8ff4c6c86f3d)
 
@@ -80,8 +80,8 @@ Interaction between the software apps and HardWare happens by the help of System
 
 ![Screenshot (102)](https://github.com/user-attachments/assets/89fb4085-3508-496b-8300-744588779981)
 
-- ASIC is the combination of RTL designs, EDA tools , PDK datas.
-- PDK (Process Design Kit)  is the interface between fabrication and designers.
+- <mark>ASIC</mark> is the combination of RTL designs, EDA tools , PDK datas.
+- <mark>PDK</mark> (Process Design Kit)  is the interface between fabrication and designers.
 - it is the collection of file used to model a fabrication process for the EDA tools used to design and IC.
            (eg 1. process design rules : DRC, LVS
                2. Device models.
