@@ -76,6 +76,23 @@ Interaction between the software apps and HardWare happens by the help of System
 
 ## INTRODUCTION TO ALL COMPONENTS OF OPENSOURCE DIGITAL ASIC DESIGN
 
+![Screenshot (102)](https://github.com/user-attachments/assets/89fb4085-3508-496b-8300-744588779981)
+
+- ASIC is the combination of RTL designs, EDA tools , PDK datas.
+- PDK (Process Design Kit)  is the interface between fabrication and designers.
+- it is the collection of file used to model a fabrication process for the EDA tools used to design and IC.
+           (eg 1. process design rules : DRC, LVS
+               2. Device models.
+               3. Digital standared cell libraries.
+               4. i/o libraries. 
+- OSU (Operating System Unit) team reported 327 MHz - post layout clock frequency for a single cycle RV32i CPU.
+- A pipelined version can achieve > 1 GHz clock 130nm fast.
+
+  ------
+
+# SIMPLIFIED RTL TO GDS FLOW
+
+![Screenshot (28)](https://github.com/user-attachments/assets/69930102-65c7-4d44-8bb9-c9eca7271cc8)
 
 
 
