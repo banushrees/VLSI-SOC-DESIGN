@@ -138,3 +138,7 @@ Interaction between the software apps and HardWare happens by the help of System
           - STA (Static Timing Analysis).
       
     </details>
+
+    <details>
+       <summary>Introduction to OpenLANE detailed and strive chipsets</summary>
+   
