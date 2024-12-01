@@ -121,8 +121,19 @@ Interaction between the software apps and HardWare happens by the help of System
      - it is always good in shape.
      - it is usually in tree shape.       
 5. ### ROUTING
-     -
-
-
-
-
+     - implement the interconnect using the available metal layers.
+     - to each metal layer the PDK finds thickness pitch.
+     - metal tracks form a routing grid.
+     - routing grid is huge.
+     - divide and conquer.
+   there are two types <mark>Global and detailed routing</mark>
+       1. <mark>global routing</mark> :generates routing guides.
+       2. <mark>detailed routing</mark> :uses the routing guide to implement the actual wiring.
+          
+6. ### SIGN-OFF
+    - <Mark>Physical verification</mark> 
+         - DRC (Design Rule Check).
+         - LVS (Layout Vs Schematic).
+    - <mark>timing verification</mark>
+          - STA (Static Timing Analysis).
+    
