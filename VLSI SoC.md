@@ -113,8 +113,8 @@ Interaction between the software apps and HardWare happens by the help of System
 3. ### PLACEMENT
      - place the cells on the floor plan rows, aligned with the sites.
      - usually done in two steps : global & detailed.
-                     1.<mark>global placement</mark> tends to find optimal position to place cells, but the cells may overlap.
-                     2.<mark>detailed placement</mark> inthis position from the golbal placements is slightyly altered.
+        1.<mark>global placement</mark> tends to find optimal position to place cells, but the cells may overlap.
+        2.<mark>detailed placement</mark> inthis position from the golbal placements is slightyly altered.
 
 4. ### CTS (Clock Tree Synthesis)
      - creates a clock distribution network with minimum skew(zero is hard to achieve)
