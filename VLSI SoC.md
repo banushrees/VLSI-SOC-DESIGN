@@ -136,4 +136,5 @@ Interaction between the software apps and HardWare happens by the help of System
          - LVS (Layout Vs Schematic).
     - <mark>timing verification</mark>
           - STA (Static Timing Analysis).
-    
+      
+    </details>
