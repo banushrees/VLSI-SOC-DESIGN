@@ -140,5 +140,40 @@ Interaction between the software apps and HardWare happens by the help of System
     </details>
 
     <details>
-       <summary>INTRODUCTION TO OPENLANE AND STRIVE CHIPSETS</summary>
+       <summary>INTRODUCTION TO OPENLANE AND ASIC DESIGN FLOW</summary>
+
+    - <mark>OPENLANE</mark> started as an opensource flow for a true open source tape out expriment.
+    - <mark>strive</mark> is a family of open everything SoC's (eg openPDK, open EDA, open RTL).
+    - its main goal is to produce a clean GDS Iwith no human intervention (no-human-in-the-loop).clean means no DRC , LVS violations,no timing violations.
+    - Tuned for SKYWATER 130nm open pdk.
+
+----
+
+
+ ## DETAILED ASIC DESIGN FLOW
+
+ ![Screenshot (36)](https://github.com/user-attachments/assets/bcebd51f-9483-451d-8248-02b8eb5b585c)
+
+
+- The flow starts with RTL synthesis and ends with GDS II  format.but to function it needs PDK.
+- the RTL is fed to yosys with design constrains.
+- the RTL translates into logic circuit using generic components.
+- the circuit can be optimised and mapped into cells from this and thers library using ABC  .
+- The design exploration utility is also used for registration testing.
+
+after the testing follows the fabrication.
+   -DFT used for
+   1.scan insertion
+   2.ATPG(Automatic Test Pattern Generation).
+   3.test patterns compaction.
+   4.fault coverage
+   5.fault simulation
+   
+- After this PnR (place and routing) will come also called as automated pnr.
+- this followed by synthesis ,this step is also called as LEC(Logic Equivalence Checking).
+- everytime the netlist is modified ,verification will be performed.
+-  post placement optimisation and CTS modifies the netlist
+       
+
+  
    
