@@ -105,7 +105,7 @@ Interaction between the software apps and HardWare happens by the help of System
           -> Layout.
 2. ### Floor planning & Power planning
     - <mark>chip floor planning</mark> : partition the chip in between different system building blocks & place the i/o pads
-    - **macro floor planning** : it focuses on dimensions
+    - <mark>macro floor planning</mark> : it focuses on dimensions pin locations , row definitions
 
 
 
