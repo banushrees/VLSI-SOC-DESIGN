@@ -1,10 +1,9 @@
 # VLSI SOC DESIGN 
 
-   ## DAY 1  
- <details>
-    <summary>lab-1</summary>
-
-# CHIP NAME:` QFN - 48 `
+   <details>
+ <summary>INTRODUCTION OF CHIPS</summary>
+      
+   ## CHIP NAME:` QFN - 48 `
 
 ![Screenshot (14)](https://github.com/user-attachments/assets/9e4a187f-ad04-4e36-820a-37372000c6a3)
 
@@ -28,9 +27,10 @@
 - MACROS's are digital logic components contains of  RISCV (Soc), SPI, GPIO  Bank.
 - IP's (Intellilectual Property )is an intelligent technique to built the building blocks.
 
----
+</details>
 
-# INTRODUCTION TO THE RISC-V ARCHITECTURE
+<details>
+<summary>INTRODUCTION TO RISC-V ARCHITECTURE</summary>
 
 ![Screenshot (19)](https://github.com/user-attachments/assets/b1930879-780a-4052-a572-5fe76917728b)
 
@@ -39,9 +39,10 @@
 - The assembly launguage program later on converted to machine launguage (eg 0101110)  Hexadecimal--> binary
 - The interface that present between the RISCV  and layout is HDL( Hardware Description Launguage)
 
----
+</details>
 
-# SOFTWARE APPLICATION TO HARDWARE IMPLEMENTATION
+<details>
+<summary>SOFTWARE APPLICATION TO HARDWARE IMPLEMENTATION</summary>
 
 Interaction between the software apps and HardWare happens by the help of System software 
 
@@ -70,9 +71,10 @@ Interaction between the software apps and HardWare happens by the help of System
  - first the instruction set specification will be converted to binary by assembler then the RTL of the H/W  will add the specs from instructions set in the  form of binary.
  - Then it is synthesized by netlist from RTL  and then implemented by H/W.
 
- ----
+</details>
  
-# SOC DESIGN AND OPENLANE
+ <details>
+<summary>SOC DESIGN AND OPENLANE</summary>
 
 ## INTRODUCTION TO ALL COMPONENTS OF OPENSOURCE DIGITAL ASIC DESIGN
 
@@ -88,9 +90,11 @@ Interaction between the software apps and HardWare happens by the help of System
 - OSU (Operating System Unit) team reported 327 MHz - post layout clock frequency for a single cycle RV32i CPU.
 - A pipelined version can achieve > 1 GHz clock 130nm fast.
 
-  ------
+</details>
 
-# SIMPLIFIED RTL TO GDS FLOW
+
+<details>
+<summary>SIMPLIFIED RTL TO GDS FLOW</summary>
 
 ![Screenshot (28)](https://github.com/user-attachments/assets/69930102-65c7-4d44-8bb9-c9eca7271cc8)
 
