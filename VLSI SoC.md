@@ -72,6 +72,10 @@ Interaction between the software apps and HardWare happens by the help of System
 
  ----
  
+# SOC DESIGN AND OPENLANE
+
+## INTRODUCTION TO ALL COMPONENTS OF OPENSOURCE DIGITAL ASIC DESIGN
+
 
 
 
