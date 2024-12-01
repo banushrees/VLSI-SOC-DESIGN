@@ -140,5 +140,5 @@ Interaction between the software apps and HardWare happens by the help of System
     </details>
 
     <details>
-       <summary>Introduction to OpenLANE detailed and strive chipsets</summary>
+       <summary>INTRODUCTION TO OPENLANE AND STRIVE CHIPSETS</summary>
    
