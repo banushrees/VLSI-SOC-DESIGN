@@ -4,22 +4,26 @@
  <summary>INTRODUCTION OF CHIPS</summary>
       
    ## CHIP NAME:` QFN - 48 `
-
+<p align="center">
 ![Screenshot (14)](https://github.com/user-attachments/assets/9e4a187f-ad04-4e36-820a-37372000c6a3)
-
+</p>
 
 
 - Each side of this has 12 pins.
 - chip is connected to each pins.
 
+   <p align="center">
   ![Screenshot (15)](https://github.com/user-attachments/assets/eb160ae7-5324-4d1a-8662-423b7dc3e66f)
-
+   </p>
+   
  important components of this chips are  PADS, core, dies.
   - <ins>CORE</ins> is area where all the digital logic chips are embedded.
   - <ins>PADS</ins> is used to send the signals inside the chip and vise versa.
   - <ins>DIE</ins> is used entire size of the chip where all pins  are embedded.
 
+<p align="center">
 ![Screenshot (18)](https://github.com/user-attachments/assets/bc17abfb-f80c-47c7-92dc-8ff4c6c86f3d)
+</p>
 
 - A typical chip contains of SoC(RISC-V) , SRAM, ADC, DAC, PLL, GPIO, SPI.
 - SRAM, PLL, ADC, DAC  are called ` FOUNDRY IP'S `(factory where all the chips are manufactured).
