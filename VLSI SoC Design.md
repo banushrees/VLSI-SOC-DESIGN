@@ -34,6 +34,8 @@
 
 <summary>INTRODUCTION TO RISC-V ARCHITECTURE</summary>
 
+
+
 ![Screenshot (19)](https://github.com/user-attachments/assets/b1930879-780a-4052-a572-5fe76917728b)
 
 - RISC V is Instruction set architecture (eg.C-program has to be typed on the hardware which has a particular layout )
