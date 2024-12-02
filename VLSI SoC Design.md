@@ -186,7 +186,7 @@ after the testing follows the fabrication.
   
   TOOL USED : <MARK>OPENLANE</OPENLANE>
 
-  - ###  COMMON LINUX COMMANDS USED
+  - ### 1.COMMON LINUX COMMANDS USED
       1.  ``cd`` --> change the directory (level up or level down).
       2. `` ls -ltr ``--> list the files present in the folder in chronological order
       3. ``ls --help`` --. to list all the switches and commands(infomatter)
@@ -194,6 +194,113 @@ after the testing follows the fabrication.
   
 ![Screenshot (74)](https://github.com/user-attachments/assets/ece6ee34-bc8c-4a18-9262-80754c8fa97b)
 
-OPEN -PDK -->> 
+- ``OPEN -PDK`` -->> They are compatable used for working with commercial purpose (not to work with EDA's).
+- ``lib-ref`` --> contains all the process specific files.
+- ``lib -tech`` --> contains all the files specific to tools.
+- ``tech-lef`` --> contains all lab information files.
+
+![Screenshot (77)](https://github.com/user-attachments/assets/7b190523-9eb0-495f-bd0e-c4926e0de72d)
+
+- in this library file all the synthesis report will be available
+- ``tt``- temperature, ``v`` - voltage.
+
+-----
+
+## 2. DESIGN PREPARATION STEPS
+
+- In this path `` cd /desktop/work/tools/openlane_working_dir/openlane  `` type  ``docker`` to initiate the openlane working file.
+- in this design setup state is performed.
+- after this type ``./flow.tcl -interactive`` to open OPENLANE.
+-  to download the package for further steps type``package require openlane 0.9`` todownload all the packages
+
+  
+![Screenshot (78)](https://github.com/user-attachments/assets/8001542b-6f5e-4cf2-b504-be6a3ce373e6)
+
+![Screenshot (83)](https://github.com/user-attachments/assets/4f8b3fc8-c7b7-4309-aa97-b262f9084d9c)
+
+
+- ``merge lef.py`` is used to merge all the LEF technology file into one folder.
+- here the mergedd -LEF will be seen.
+
+  ![Screenshot (86)](https://github.com/user-attachments/assets/29d9605f-85ce-4ea7-901a-ff391f2b0d58)
+  
+
+  ![Screenshot (87)](https://github.com/user-attachments/assets/782a7599-c68a-40d1-bf99-f3147de47cdb)
+
+  
+  ![Screenshot (88)](https://github.com/user-attachments/assets/96b93215-95bc-47f9-bf52-b195bbe8a77f)
+
+  
+
+-----------
+
+## 3. REVIEW OF FILES AFTER DESIGN PREPARATION AND SYNTHESIS
+- after the design preparation , the new run files will be added in the ``picorv32a``.
+
+  ![Screenshot (80)](https://github.com/user-attachments/assets/1ba66d6f-601c-4806-a06d-1dde9baddf2c)
+  
+
+- after running , the timing stamp of the processed design files will be stored in the ``tmp`` file.
+
+  ![Screenshot (84)](https://github.com/user-attachments/assets/d5215b61-ee39-45c9-be65-a5eb6eb1bc6c)
+
+- in the below picture all the results , synthesis, report files will be seen inside the stamp file.
+
+![Screenshot (89)](https://github.com/user-attachments/assets/ce585e03-c248-4a19-a1db-d122ecbf5c81)
+
+- In the stamp file ``cofig.tcl`` , all the libraries will be shown.
+     - command `less config .tcl ``.
+
+  ![Screenshot (91)](https://github.com/user-attachments/assets/64a4e0d3-3e97-407d-8b90-928b6778631d)
+
+
+  ![Screenshot (90)](https://github.com/user-attachments/assets/3b59ecf6-d53c-41d7-812c-edf59df4b5fa)
+
+
+  - the command files will also be shown in ``less cmds.log``.
+ 
+    ![Screenshot (92)](https://github.com/user-attachments/assets/c26c51c4-6dd6-4193-8a9f-8286cda9bf3f)
+
+ - in the main window the synthesis file will be downloaded ``run_synthesis``.
+
+   
+   ![Screenshot (93)](https://github.com/user-attachments/assets/2175472c-08f7-42ac-994d-3c8a3d85788c)
+
+------------
+
+## SYNTHESIS STEPS
+
+- for eg: d flip flop we are calculating the clock percentage.
+- d flip flop : 1613.
+- total number of cells : 14876.
+- the clock percentage = 10.98 %.
+
+![Screenshot (94)](https://github.com/user-attachments/assets/3991fa84-378b-4f3a-a62e-6fb658ed192d)
+
+- to check the results go to time stamp 
+
+![Screenshot (95)](https://github.com/user-attachments/assets/ecc34fe8-08f3-4bd5-a7f5-8630a79ea6c6)
+
+
+![Screenshot (96)](https://github.com/user-attachments/assets/625f6d70-c4ff-4842-bd78-b838ab3e64c0)
+
+- to check the reports ``less 1_yosys_4.stat.rpt``.
+  
+![Screenshot (98)](https://github.com/user-attachments/assets/aef1f978-4c52-41e6-9d07-4076dc24ba42)
+
+- to check the report of the timing. ``less 2_openstat.rpt``
+
+![Screenshot (99)](https://github.com/user-attachments/assets/318a6b64-9959-4e2e-89c7-de47c3656195)
+
+![Screenshot (100)](https://github.com/user-attachments/assets/b877087f-94e9-4976-9fab-d859ce64b9eb)
+
+------------------------
+
+
+  
+
+
+
+
     
 
