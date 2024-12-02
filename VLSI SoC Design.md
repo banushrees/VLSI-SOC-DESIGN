@@ -31,11 +31,9 @@
 - IP's (Intellilectual Property )is an intelligent technique to built the building blocks.
 
 </details>
---------------------------------------------------------------------------------------------------------------------
 
-## 2.INTRODUCTION TO RISC-V ARCHITECTURE
-
-
+<details>
+<summary>2.INTRODUCTION TO RISC-V ARCHITECTURE</summary>
 
 ![Screenshot (19)](https://github.com/user-attachments/assets/b1930879-780a-4052-a572-5fe76917728b)
 
@@ -44,7 +42,7 @@
 - The assembly launguage program later on converted to machine launguage (eg 0101110)  Hexadecimal--> binary.
 - The interface that present between the RISCV  and layout is HDL( Hardware Description Launguage).
 
-
+</details>
 
 
 ## 3. SOFTWARE APPLICATION TO HARDWARE IMPLEMENTATION
