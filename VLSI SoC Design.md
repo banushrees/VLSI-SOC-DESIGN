@@ -4,7 +4,7 @@
  <summary> DAY -1 INCEPTION OF OPEN SOURCE EDA, OPENLANE AND SKY130PDK</summary>
 
 <details>
-<summary> ## 1.INTRODUCTION OF CHIPS AND RISCV ARCHITECTURE</summary>
+<summary> ##1.INTRODUCTION OF CHIPS AND RISCV ARCHITECTURE</summary>
    
    ## CHIP NAME: `QFN - 48`
    
