@@ -268,7 +268,7 @@ after the testing follows the fabrication.
 
 ------------
 
-## SYNTHESIS STEPS
+## 4. SYNTHESIS STEPS
 
 - for eg: d flip flop we are calculating the clock percentage.
 - d flip flop : 1613.
