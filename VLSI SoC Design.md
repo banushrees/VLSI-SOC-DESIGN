@@ -19,6 +19,7 @@
   - <ins>PADS</ins> is used to send the signals inside the chip and vise versa.
   - <ins>DIE</ins> is used entire size of the chip where all pins  are embedded.
 
+
 ![Screenshot (18)](https://github.com/user-attachments/assets/bc17abfb-f80c-47c7-92dc-8ff4c6c86f3d)
 
 
@@ -28,9 +29,9 @@
 - MACROS's are digital logic components contains of  RISCV (Soc), SPI, GPIO  Bank.
 - IP's (Intellilectual Property )is an intelligent technique to built the building blocks.
 
-</details>
 
-<details>
+--------
+
 <summary>INTRODUCTION TO RISC-V ARCHITECTURE</summary>
 
 ![Screenshot (19)](https://github.com/user-attachments/assets/b1930879-780a-4052-a572-5fe76917728b)
@@ -40,9 +41,10 @@
 - The assembly launguage program later on converted to machine launguage (eg 0101110)  Hexadecimal--> binary.
 - The interface that present between the RISCV  and layout is HDL( Hardware Description Launguage).
 
--------
+</details>
 
-## SOFTWARE APPLICATION TO HARDWARE IMPLEMENTATION</summary>
+<details>
+<summary>>SOFTWARE APPLICATION TO HARDWARE IMPLEMENTATION</summary>
 
 Interaction between the software apps and HardWare happens by the help of System software .
 
