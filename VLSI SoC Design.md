@@ -176,8 +176,9 @@ after the testing follows the fabrication.
 - everytime the netlist is modified ,verification will be performed.
 -  post placement optimisation and CTS modifies the netlist
        
-
 </details>
 
-<details></details>
+<details>
+  <summary>INTRODUCTION TO OPEN TOOLS EDA TOOLS</summary>
+  
    
