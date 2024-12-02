@@ -3,8 +3,8 @@
    <details>
  <summary> DAY -1 INCEPTION OF OPEN SOURCE EDA, OPENLANE AND SKY130PDK</summary>
 
-
- ## 1.INTRODUCTION OF CHIPS AND RISCV ARCHITECTURE
+<details>
+<summary> ## 1.INTRODUCTION OF CHIPS AND RISCV ARCHITECTURE</summary>
    ## CHIP NAME: `QFN - 48`
 ![Screenshot (14)](https://github.com/user-attachments/assets/9e4a187f-ad04-4e36-820a-37372000c6a3)
 
@@ -31,7 +31,7 @@
 - MACROS's are digital logic components contains of  RISCV (Soc), SPI, GPIO  Bank.
 - IP's (Intellilectual Property )is an intelligent technique to built the building blocks.
 
-
+</details>
 --------------------------------------------------------------------------------------------------------------------
 
 ## 2.INTRODUCTION TO RISC-V ARCHITECTURE
