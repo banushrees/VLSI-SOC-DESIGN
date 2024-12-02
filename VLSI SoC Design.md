@@ -44,7 +44,7 @@
 </details>
 
 <details>
-<summary>>SOFTWARE APPLICATION TO HARDWARE IMPLEMENTATION</summary>
+<summary>SOFTWARE APPLICATION TO HARDWARE IMPLEMENTATION</summary>
 
 Interaction between the software apps and HardWare happens by the help of System software .
 
