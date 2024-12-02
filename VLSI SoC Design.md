@@ -1,11 +1,11 @@
 # VLSI SOC DESIGN 
 
    <details>
- <summary># DAY -1 INCEPTION OF OPEN SOURCE EDA, OPENLANE AND SKY130PDK</summary>
+ <summary> DAY -1 INCEPTION OF OPEN SOURCE EDA, OPENLANE AND SKY130PDK</summary>
 
- <details> 
- <summary>## INTRODUCTION OF CHIPS AND RISCV ARCHITECTURE</summary>
-   ## CHIP NAME:` QFN - 48 `
+
+ ## 1.INTRODUCTION OF CHIPS AND RISCV ARCHITECTURE
+   ## CHIP NAME: `QFN - 48`
 ![Screenshot (14)](https://github.com/user-attachments/assets/9e4a187f-ad04-4e36-820a-37372000c6a3)
 
 
@@ -31,10 +31,10 @@
 - MACROS's are digital logic components contains of  RISCV (Soc), SPI, GPIO  Bank.
 - IP's (Intellilectual Property )is an intelligent technique to built the building blocks.
 
-</details>
---------
 
-<summary>INTRODUCTION TO RISC-V ARCHITECTURE</summary>
+--------------------------------------------------------------------------------------------------------------------
+
+## 2.INTRODUCTION TO RISC-V ARCHITECTURE
 
 
 
@@ -45,10 +45,10 @@
 - The assembly launguage program later on converted to machine launguage (eg 0101110)  Hexadecimal--> binary.
 - The interface that present between the RISCV  and layout is HDL( Hardware Description Launguage).
 
-</details>
 
-<details>
-<summary>SOFTWARE APPLICATION TO HARDWARE IMPLEMENTATION</summary>
+
+
+## 3. SOFTWARE APPLICATION TO HARDWARE IMPLEMENTATION
 
 Interaction between the software apps and HardWare happens by the help of System software .
 
@@ -77,12 +77,12 @@ Interaction between the software apps and HardWare happens by the help of System
  - first the instruction set specification will be converted to binary by assembler then the RTL of the H/W  will add the specs from instructions set in the  form of binary.
  - Then it is synthesized by netlist from RTL  and then implemented by H/W.
 
-</details>
- 
- <details>
-<summary>SOC DESIGN AND OPENLANE</summary>
 
-## INTRODUCTION TO ALL COMPONENTS OF OPENSOURCE DIGITAL ASIC DESIGN
+ ---------------------------------------------------------------------------------------------------------------------
+
+## 4.SOC DESIGN AND OPENLANE
+
+### INTRODUCTION TO ALL COMPONENTS OF OPENSOURCE DIGITAL ASIC DESIGN
 
 ![Screenshot (102)](https://github.com/user-attachments/assets/89fb4085-3508-496b-8300-744588779981)
 
@@ -96,14 +96,10 @@ Interaction between the software apps and HardWare happens by the help of System
 - OSU (Operating System Unit) team reported 327 MHz - post layout clock frequency for a single cycle RV32i CPU.
 - A pipelined version can achieve > 1 GHz clock 130nm fast.
 
-</details>
-
-
-<details>
-<summary>SIMPLIFIED RTL TO GDS FLOW</summary>
+------------------------------------------------------------------------------------------------------------------
+## 5. SIMPLIFIED RTL TO GDS FLOW
 
 ![Screenshot (28)](https://github.com/user-attachments/assets/455d0c0f-c1d1-4d68-b934-6648a216dbcd)
-
 
 
 1. ### SYNTHESIS
@@ -144,20 +140,17 @@ Interaction between the software apps and HardWare happens by the help of System
     - <mark>timing verification</mark>
           - STA (Static Timing Analysis).
       
-    </details>
+ ---------------------------------------------------------------------------------
 
-    <details>
-       <summary>INTRODUCTION TO OPENLANE AND ASIC DESIGN FLOW</summary>
-
-    - <mark>OPENLANE</mark> started as an opensource flow for a true open source tape out expriment.
-    - <mark>strive</mark> is a family of open everything SoC's (eg openPDK, open EDA, open RTL).
-    - its main goal is to produce a clean GDS Iwith no human intervention (no-human-in-the-loop).clean means no DRC , LVS violations,no timing violations.
-    - Tuned for SKYWATER 130nm open pdk.
-
+ ## 6. INTRODUCTION TO OPENLANE AND ASIC DESIGN FLOW
+  
+   - <mark>OPENLANE</mark> started as an opensource flow for a true open source tape out expriment.
+   - <mark>strive</mark> is a family of open everything SoC's (eg openPDK, open EDA, open RTL).
+   - its main goal is to produce a clean GDS Iwith no human intervention (no-human-in-the-loop).clean means no DRC , LVS violations,no timing violations.
+   - Tuned for SKYWATER 130nm open pdk.
 
 
-
- ## DETAILED ASIC DESIGN FLOW
+ ### DETAILED ASIC DESIGN FLOW
 
  ![Screenshot (36)](https://github.com/user-attachments/assets/bcebd51f-9483-451d-8248-02b8eb5b585c)
 
@@ -181,10 +174,10 @@ after the testing follows the fabrication.
 - everytime the netlist is modified ,verification will be performed.
 -  post placement optimisation and CTS modifies the netlist
        
-</details>
 
-<details>
-  <summary>INTRODUCTION TO OPEN TOOLS EDA TOOLS</summary>
+--------------------------------------------------------------------------------------------------------------------
+
+## 7. INTRODUCTION TO OPEN TOOLS EDA TOOLS
   
   TOOL USED : <MARK>OPENLANE</OPENLANE>
 
@@ -206,9 +199,9 @@ after the testing follows the fabrication.
 - in this library file all the synthesis report will be available
 - ``tt``- temperature, ``v`` - voltage.
 
------
+----------------------------------------------------------------------------------------------------------------------
 
-## 2. DESIGN PREPARATION STEPS
+## 8. DESIGN PREPARATION STEPS
 
 - In this path `` cd /desktop/work/tools/openlane_working_dir/openlane  `` type  ``docker`` to initiate the openlane working file.
 - in this design setup state is performed.
@@ -234,9 +227,9 @@ after the testing follows the fabrication.
 
   
 
------------
+---------------------------------------------------------------------------------------------------------------------
 
-## 3. REVIEW OF FILES AFTER DESIGN PREPARATION AND SYNTHESIS
+## 9. REVIEW OF FILES AFTER DESIGN PREPARATION AND SYNTHESIS
 - after the design preparation , the new run files will be added in the ``picorv32a``.
 
   ![Screenshot (80)](https://github.com/user-attachments/assets/1ba66d6f-601c-4806-a06d-1dde9baddf2c)
@@ -268,9 +261,9 @@ after the testing follows the fabrication.
    
    ![Screenshot (93)](https://github.com/user-attachments/assets/2175472c-08f7-42ac-994d-3c8a3d85788c)
 
-------------
+--------------------------------------------------------------------------------------------------------------------
 
-## 4. SYNTHESIS STEPS
+## 10. SYNTHESIS STEPS
 
 - for eg: d flip flop we are calculating the clock percentage.
 - d flip flop : 1613.
