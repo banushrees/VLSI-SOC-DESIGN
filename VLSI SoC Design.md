@@ -5,14 +5,13 @@
 
 <details>
 <summary> ## 1.INTRODUCTION OF CHIPS AND RISCV ARCHITECTURE</summary>
+   
    ## CHIP NAME: `QFN - 48`
+   
 ![Screenshot (14)](https://github.com/user-attachments/assets/9e4a187f-ad04-4e36-820a-37372000c6a3)
-
-
 
 - Each side of this has 12 pins.
 - chip is connected to each pins.
-
 
   ![Screenshot (15)](https://github.com/user-attachments/assets/eb160ae7-5324-4d1a-8662-423b7dc3e66f)
    
