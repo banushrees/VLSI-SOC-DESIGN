@@ -44,8 +44,9 @@
 
 </details>
 
-
-## 3. SOFTWARE APPLICATION TO HARDWARE IMPLEMENTATION
+<details>
+   
+<summary>3. SOFTWARE APPLICATION TO HARDWARE IMPLEMENTATION</summary>
 
 Interaction between the software apps and HardWare happens by the help of System software .
 
@@ -74,10 +75,10 @@ Interaction between the software apps and HardWare happens by the help of System
  - first the instruction set specification will be converted to binary by assembler then the RTL of the H/W  will add the specs from instructions set in the  form of binary.
  - Then it is synthesized by netlist from RTL  and then implemented by H/W.
 
+</details>
 
- ---------------------------------------------------------------------------------------------------------------------
-
-## 4.SOC DESIGN AND OPENLANE
+<details>
+<summary>4.SOC DESIGN AND OPENLANE</summary>
 
 ### INTRODUCTION TO ALL COMPONENTS OF OPENSOURCE DIGITAL ASIC DESIGN
 
@@ -93,8 +94,10 @@ Interaction between the software apps and HardWare happens by the help of System
 - OSU (Operating System Unit) team reported 327 MHz - post layout clock frequency for a single cycle RV32i CPU.
 - A pipelined version can achieve > 1 GHz clock 130nm fast.
 
-------------------------------------------------------------------------------------------------------------------
-## 5. SIMPLIFIED RTL TO GDS FLOW
+</details>
+
+<details>
+<summary>5. SIMPLIFIED RTL TO GDS FLOW</summary>
 
 ![Screenshot (28)](https://github.com/user-attachments/assets/455d0c0f-c1d1-4d68-b934-6648a216dbcd)
 
@@ -137,9 +140,10 @@ Interaction between the software apps and HardWare happens by the help of System
     - <mark>timing verification</mark>
           - STA (Static Timing Analysis).
       
- ---------------------------------------------------------------------------------
+ </details>
 
- ## 6. INTRODUCTION TO OPENLANE AND ASIC DESIGN FLOW
+<details>
+ <summary>6.INTRODUCTION TO OPENLANE AND ASIC DESIGN FLOW</summary>
   
    - <mark>OPENLANE</mark> started as an opensource flow for a true open source tape out expriment.
    - <mark>strive</mark> is a family of open everything SoC's (eg openPDK, open EDA, open RTL).
@@ -171,10 +175,11 @@ after the testing follows the fabrication.
 - everytime the netlist is modified ,verification will be performed.
 -  post placement optimisation and CTS modifies the netlist
        
+</details>
 
---------------------------------------------------------------------------------------------------------------------
+<details>
 
-## 7. INTRODUCTION TO OPEN TOOLS EDA TOOLS
+<summary>7. INTRODUCTION TO OPEN TOOLS EDA TOOLS</summary>
   
   TOOL USED : <MARK>OPENLANE</OPENLANE>
 
@@ -196,11 +201,12 @@ after the testing follows the fabrication.
 - in this library file all the synthesis report will be available
 - ``tt``- temperature, ``v`` - voltage.
 
-----------------------------------------------------------------------------------------------------------------------
+</details>
 
-## 8. DESIGN PREPARATION STEPS
+<details>
+<summary>8. DESIGN PREPARATION STEPS</summary>
 
-- In this path `` cd /desktop/work/tools/openlane_working_dir/openlane  `` type  ``docker`` to initiate the openlane working file.
+- In this path ``cd /desktop/work/tools/openlane_working_dir/openlane`` type  ``docker`` to initiate the openlane working file.
 - in this design setup state is performed.
 - after this type ``./flow.tcl -interactive`` to open OPENLANE.
 -  to download the package for further steps type``package require openlane 0.9`` todownload all the packages
@@ -223,10 +229,12 @@ after the testing follows the fabrication.
   ![Screenshot (88)](https://github.com/user-attachments/assets/96b93215-95bc-47f9-bf52-b195bbe8a77f)
 
   
+</details>
 
----------------------------------------------------------------------------------------------------------------------
+<details>
 
-## 9. REVIEW OF FILES AFTER DESIGN PREPARATION AND SYNTHESIS
+<summary> 9.REVIEW OF FILES AFTER DESIGN PREPARATION AND SYNTHESIS</summary>
+
 - after the design preparation , the new run files will be added in the ``picorv32a``.
 
   ![Screenshot (80)](https://github.com/user-attachments/assets/1ba66d6f-601c-4806-a06d-1dde9baddf2c)
@@ -258,9 +266,10 @@ after the testing follows the fabrication.
    
    ![Screenshot (93)](https://github.com/user-attachments/assets/2175472c-08f7-42ac-994d-3c8a3d85788c)
 
---------------------------------------------------------------------------------------------------------------------
+</details>
 
-## 10. SYNTHESIS STEPS
+<details>
+<summary>10. SYNTHESIS STEPS</summary>
 
 - for eg: d flip flop we are calculating the clock percentage.
 - d flip flop : 1613.
@@ -285,6 +294,8 @@ after the testing follows the fabrication.
 ![Screenshot (99)](https://github.com/user-attachments/assets/318a6b64-9959-4e2e-89c7-de47c3656195)
 
 ![Screenshot (100)](https://github.com/user-attachments/assets/b877087f-94e9-4976-9fab-d859ce64b9eb)
+
+</details>
 
 </details>
 
