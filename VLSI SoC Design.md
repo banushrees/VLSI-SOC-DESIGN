@@ -1,7 +1,7 @@
 # VLSI SOC DESIGN 
 
    <details>
- <summary>INTRODUCTION OF CHIPS</summary>
+ <summary>INTRODUCTION OF CHIPS AND RISCV ARCHITECTURE</summary>
       
    ## CHIP NAME:` QFN - 48 `
 ![Screenshot (14)](https://github.com/user-attachments/assets/9e4a187f-ad04-4e36-820a-37372000c6a3)
@@ -40,10 +40,9 @@
 - The assembly launguage program later on converted to machine launguage (eg 0101110)  Hexadecimal--> binary.
 - The interface that present between the RISCV  and layout is HDL( Hardware Description Launguage).
 
-</details>
+-------
 
-<details>
-<summary>SOFTWARE APPLICATION TO HARDWARE IMPLEMENTATION</summary>
+## SOFTWARE APPLICATION TO HARDWARE IMPLEMENTATION</summary>
 
 Interaction between the software apps and HardWare happens by the help of System software .
 
