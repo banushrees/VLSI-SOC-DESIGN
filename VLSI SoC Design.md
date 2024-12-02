@@ -1,8 +1,10 @@
 # VLSI SOC DESIGN 
 
    <details>
- <summary>INTRODUCTION OF CHIPS AND RISCV ARCHITECTURE</summary>
-      
+ <summary># DAY -1 INCEPTION OF OPEN SOURCE EDA, OPENLANE AND SKY130PDK</summary>
+
+ <details> 
+ <summary>## INTRODUCTION OF CHIPS AND RISCV ARCHITECTURE</summary>
    ## CHIP NAME:` QFN - 48 `
 ![Screenshot (14)](https://github.com/user-attachments/assets/9e4a187f-ad04-4e36-820a-37372000c6a3)
 
@@ -29,7 +31,7 @@
 - MACROS's are digital logic components contains of  RISCV (Soc), SPI, GPIO  Bank.
 - IP's (Intellilectual Property )is an intelligent technique to built the building blocks.
 
-
+</details>
 --------
 
 <summary>INTRODUCTION TO RISC-V ARCHITECTURE</summary>
@@ -294,7 +296,8 @@ after the testing follows the fabrication.
 
 ![Screenshot (100)](https://github.com/user-attachments/assets/b877087f-94e9-4976-9fab-d859ce64b9eb)
 
-------------------------
+</details>
+
 
 
   
