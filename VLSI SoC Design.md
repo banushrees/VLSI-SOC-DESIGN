@@ -188,10 +188,12 @@ after the testing follows the fabrication.
 
   - ###  COMMON LINUX COMMANDS USED
       1.  ``cd`` --> change the directory (level up or level down).
-      2.  ls -ltr --> list the files present in the folder in chronological order
-      3.  ls --help --. to list all the switches and commands(infomatter)
+      2. `` ls -ltr ``--> list the files present in the folder in chronological order
+      3. ``ls --help`` --. to list all the switches and commands(infomatter)
 
-    ![Screenshot (74)](https://github.com/user-attachments/assets/ece6ee34-bc8c-4a18-9262-80754c8fa97b)
-OPEN -PDK 
+  
+![Screenshot (74)](https://github.com/user-attachments/assets/ece6ee34-bc8c-4a18-9262-80754c8fa97b)
+
+OPEN -PDK -->> 
     
 
