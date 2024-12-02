@@ -249,7 +249,7 @@ after the testing follows the fabrication.
 ![Screenshot (89)](https://github.com/user-attachments/assets/ce585e03-c248-4a19-a1db-d122ecbf5c81)
 
 - In the stamp file ``cofig.tcl`` , all the libraries will be shown.
-     - command `less config .tcl ``.
+     - command ``less config .tcl ``.
 
   ![Screenshot (91)](https://github.com/user-attachments/assets/64a4e0d3-3e97-407d-8b90-928b6778631d)
 
